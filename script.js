@@ -1,3 +1,3 @@
-const container = document.getElementsByid('container');
-const loginBtn = document.getElementById('Login')
+const container = document.getElementById('container');
+const loginBtn = document.getElementById('login');
 const registerBtn = document.getElementById('registro');
