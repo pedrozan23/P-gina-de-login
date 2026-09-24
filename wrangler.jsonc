@@ -1,7 +1,17 @@
 {
   "name": "p-gina-de-login",
   "compatibility_date": "2026-09-16",
+  "main": "./src/index.js",
   "assets": {
-    "directory": "."
-  }
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/oauth/*", "/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pagina-login-db",
+      "database_id": "dd1343b5-d576-43f7-9da2-c92f2fc5195e"
+    }
+  ]
 }
