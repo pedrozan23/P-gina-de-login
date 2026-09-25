@@ -7,6 +7,10 @@
     "binding": "ASSETS",
     "run_worker_first": ["/oauth/*", "/api/*"]
   },
+  "vars": {
+    "GOOGLE_CLIENT_ID": "562121185294-00ta4gno9lvuan2515o6sa63u9hot0u9.apps.googleusercontent.com",
+    "PUBLIC_BASE_URL": "https://p-gina-de-login.pzanetti868.workers.dev"
+  },
   "d1_databases": [
     {
       "binding": "DB",
